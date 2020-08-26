@@ -35,8 +35,8 @@ class VNF_route(object):
               #a = adjacency[i][j]
               if a is None: a = "*"
               print a
-            print
-    #source code 
+            # print
+      
         sws = self.switches
         self.path_map.clear()
         for k,s in sws.iteritems():
